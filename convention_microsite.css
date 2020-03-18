@@ -1,0 +1,150 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+	background-color: antiquewhite;
+	display: grid;
+	grid-template-columns: 25% 75%;
+}
+header {
+	background-color:#89846F;
+	padding: 1.25em;
+	grid-template-rows: 1 / span 3;
+	top: 0;
+	bottom: 0;
+	margin-top: 3%;
+}
+article {
+	grid-column: 2 / span 3;
+	margin-top: 10%;
+	margin-right: 15%;
+}
+a {text-decoration: underline;
+	color: antiquewhite;
+}
+h1 {
+font-family: 'Bellota', cursive;
+	color: antiquewhite;
+}
+h2 {
+font-family: 'Bellota', cursive;
+color: antiquewhite;
+	font-size: 1em;
+}
+h3 {
+	font-family: 'Bellota', cursive;
+	padding-left: 3%;
+	color: #8E8A57;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	/*background-color:#89846F;*/
+	color: #89846F;
+	padding-left: 3%;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: cadetblue;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+img {
+	margin-left: 15%;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 20px;
+}
+.wrapper img {
+	width: 70%;
+	height: auto;
+}
+.tcolumn {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.dropbtn {
+  color:cornsilk;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#89846F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: cadetblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	font-family: 'Bellota', cursive;
+}
+
+.dropdown-content a:hover {background-color:#89846F;}
+
+.dropdown:hover .dropdown-content {display: block;
+background-color:cornsilk;}
+
+.dropdown:hover .dropbtn {background-color:#89846F;}
+nav {
+font-family: 'Bellota', cursive;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	background-color: cadetblue;
+	margin: 0;
+	padding: 1%;
+	
+}
+
+nav a {
+	color: antiquewhite;
+}
+
+nav a:link {
+	text-decoration: underline;
+}
+
+nav a:visited {
+	text-decoration: none
+}
+
+nav a:hover {
+	font-size: 1.5em;
+}
+
+nav a:active {
+	color: cadetblue;
+}
+
+
+footer {
+	background-color:#89846F;
+	padding: 3%;
+}
+
+address {
+	font-family: 'Bellota', cursive;
+color: antiquewhite;
+}
+credit {
+	font-family: 'Bellota', cursive;
+color: antiquewhite;
+}
+a[href^="tel:"] {
+	font-family: 'Bellota', cursive;
+color: antiquewhite;
+}
